@@ -33,21 +33,22 @@ function printPyramid(height) {
  *       #####
  *      ######
  */
-function printPyramid(height) {
-    
+function printPyramid(5) {
 
-    // TODO
-    // print that pyramid!
-    var hash = '';
+  for (i= 0;i < height; i++) {
+         str = " ";
+  for (j = 0; j < height; j ++){
+         str  += " ";  // counts spaces
 
-    for (var counter = 0;counter < 6 ; counter ++)
-    {
-     console.log (hash);
-     hash= hash + "#";
     }
-    console.log ("Print that pyramid!");
+    for (k = 0; k < i +2; k ++) {
 
+            str += "#";  // counts hashes
+
+     }
+
+         console.log (str);
+     }
 }
 
 
-}
