@@ -8,11 +8,14 @@ formElem.onsubmit = function(event) {
 
     // QUIZ
     // what happens if we don't do this?
+    // Quiz answer:  We won't know whether  the preventDefault() method was called for the event.
     event.preventDefault();
 
     // QUIZ
     // what happens if we don't do this?
+    //Quiz answer: the error indicator will not be reset at the end of file.
     clearError();
+    
 
     // figure out the height the user typed
     heightStr = heightElem.value;
