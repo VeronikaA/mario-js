@@ -49,7 +49,7 @@ button.onclick = function() {
      // for each row....
      for (var row = 0; row < height; row++) {
 
-         // figure out number of bricks and spaces
+         // figure out number of bricks and spaces for each
          var numBricks = row + 2;
          var numSpaces = height - row - 1;
 
